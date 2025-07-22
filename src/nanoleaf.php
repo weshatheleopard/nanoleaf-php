@@ -93,8 +93,6 @@ class Nanoleaf {
   }
 
   function Pair() {
-    $this->OpenSocket();
-
     $data = "POST /api/v1/new HTTP/1.1\r\n\r\n";
 
     $body = $this->Communicate($data);
